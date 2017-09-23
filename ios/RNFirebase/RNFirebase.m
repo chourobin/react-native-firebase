@@ -4,6 +4,11 @@
 @implementation RNFirebase
 RCT_EXPORT_MODULE(RNFirebase);
 
++ (void)configure
+{
+    [FIRApp configure];
+}
+
 - (id)init {
     self = [super init];
     if (self != nil) {

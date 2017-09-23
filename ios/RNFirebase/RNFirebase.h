@@ -8,6 +8,8 @@
 @interface RNFirebase : RCTEventEmitter <RCTBridgeModule> {
 }
 
++ (void)configure;
+
 @end
 
 #endif
